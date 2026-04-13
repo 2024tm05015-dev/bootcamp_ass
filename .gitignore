@@ -1,0 +1,81 @@
+# ===============================
+# ENVIRONMENT VARIABLES
+# ===============================
+.env
+.env.*
+
+# ===============================
+# PYTHON CACHE FILES
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# VIRTUAL ENVIRONMENTS
+# ===============================
+venv/
+.env/
+.venv/
+env/
+
+# ===============================
+# VECTOR DATABASE / STORAGE
+# ===============================
+chroma_db/
+
+# ===============================
+# CACHE FILES
+# ===============================
+.cache/
+*.cache
+
+# ===============================
+# LOG FILES
+# ===============================
+*.log
+
+# ===============================
+# OS FILES
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE / EDITOR FILES
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# NOTEBOOK CHECKPOINTS
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# BUILD / DIST FILES
+# ===============================
+build/
+dist/
+*.egg-info/
+
+venv/
+__pycache__/
+*.pyc
+.env
+chroma_db/
+data/uploads/
+data/extracted_images/
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+EOF
